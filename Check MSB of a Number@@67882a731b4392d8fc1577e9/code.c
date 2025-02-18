@@ -7,12 +7,12 @@ int main() {
     scanf("%d", &num);
 
     x = num >> 1;
-    
+
     if ((x & 1 ) ==1){
         printf("Set");
     }
     else {
-        printf("Not Set")
+        printf("Not Set");
     } 
     
     return 0;
