@@ -6,7 +6,7 @@ int main() {
     int num, x;
     scanf("%d", &num);
 
-    x = num << 31;
+    x = num >> 1;
 
     if ((x & 1 ) ==1){
         printf("Set");
