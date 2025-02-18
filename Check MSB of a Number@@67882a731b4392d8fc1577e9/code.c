@@ -3,10 +3,12 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int num, x;
     scanf("%d", &num);
 
-    if ((num << 31) == 1){
+    x = num >> 1;
+    
+    if ((x & 1 ) ==1){
         printf("Set");
     }
     else {
