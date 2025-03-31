@@ -13,9 +13,9 @@ int main() {
         //   printf(" ");
         //}
 
-        for (int a = space; a >0;){
+        for (int a = space; a >0; space--){
             printf(" ");
-            space--;
+            
         }
 
         for (int j = 0; j <= i; j++) {
