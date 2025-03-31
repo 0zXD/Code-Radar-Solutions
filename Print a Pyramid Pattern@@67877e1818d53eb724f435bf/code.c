@@ -14,7 +14,7 @@ int main() {
         //}
         space--;
 
-        for (int a = rows -1; a >1; a--){
+        for (int a = rows -1; a >0; a--){
             printf(" ");
         }
 
