@@ -12,10 +12,10 @@ int main() {
         //for (int j = 0; j < space; j++){
         //   printf(" ");
         //}
-        space--;
 
-        for (int a = rows -1; a >=0; a--){
+        for (int a = space; a >0){
             printf(" ");
+            space--;
         }
 
         for (int j = 0; j <= i; j++) {
