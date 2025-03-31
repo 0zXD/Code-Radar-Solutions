@@ -9,12 +9,12 @@ int main() {
     space = rows - 1;
 
     for (int i = 0; i < rows; i++){
-       // for (int j = 0; j < space; j++){
-         //   printf(" ");
+        //for (int j = 0; j < space; j++){
+        //   printf(" ");
         //}
         space--;
 
-        for (int a = rows -1; a >0; a--){
+        for (int a = rows -1; a >=0; a--){
             printf(" ");
         }
 
