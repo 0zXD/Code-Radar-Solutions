@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 int main(){
-    int rows, space, space2;
+    int rows, space, stars;
     scanf("%d", &rows);
 
     space = rows-1; 
-    space2 = rows-1;
+    stars = rows-1;
 
     for (int i =0; i< rows; i++){
         for (int j = 0; j < space; j++){
