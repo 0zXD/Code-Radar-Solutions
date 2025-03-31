@@ -10,11 +10,11 @@ int main() {
 
     for (int i = 0; i < rows; i++){
        // for (int j = 0; j < space; j++){
-         ///   printf(" ");
+         //   printf(" ");
         //}
         space--;
 
-        for (int a = rows -1; a >0; a--){
+        for (int a = rows -1; a >1; a--){
             printf(" ");
         }
 
