@@ -10,7 +10,7 @@ int main() {
     star = rows; 
 
     for (int i = 0; i < rows; i++){
-        for (int j = rows-1, j >0; j--){
+        for (int j = rows-1; j >0; j--){
             printf(" "); 
         }
 
