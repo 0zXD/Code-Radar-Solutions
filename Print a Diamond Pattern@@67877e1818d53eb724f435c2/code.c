@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 int main(){
-    int rows, space;
+    int rows, space, space2;
     scanf("%d", &rows);
 
     space = rows-1; 
+    space2 = rows-1;
 
     for (int i =0; i< rows; i++){
         for (int j = 0; j < space; j++){
@@ -21,4 +22,20 @@ int main(){
         }
         printf("\n");
     }
+    
+    for (int j =0; j< rows-1; j++){
+        for (int x = 0; x < j+1; x++){
+            printf(" ");
+        }
+        for (int x = 0; x < stars ; x++){
+            printf("*");
+        }
+        for (int x = 0; x < stars-1 ; x++){
+            printf("*");
+        }
+        stars--;
+        printf("\n");
+    }
+
+
 }
