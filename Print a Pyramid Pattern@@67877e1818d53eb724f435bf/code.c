@@ -4,15 +4,15 @@
 #include <stdio.h>
 
 int main() {
-    int rows, space, star;
+    int rows, space;
     scanf("%d", &rows);
-
-    star = rows; 
+    space = rows - 1;
 
     for (int i = 0; i < rows; i++){
-        for (int j = rows-1; j >0; j--){
-            printf(" "); 
+        for (int j = 0; j < space; j++){
+            printf(" ");
         }
+        space--;
 
         for (int j = 0; j <= i; j++) {
             printf("*");
