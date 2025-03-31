@@ -9,14 +9,10 @@ int main() {
     space = rows - 1;
 
     for (int i = 0; i < rows; i++){
-        //for (int j = 0; j < space; j++){
-        //   printf(" ");
-        //}
-
-        for (int a = space; a >0; space--){
-            printf(" ");
-            
+        for (int j = 0; j < space; j++){
+           printf(" ");
         }
+        space--;
 
         for (int j = 0; j <= i; j++) {
             printf("*");
