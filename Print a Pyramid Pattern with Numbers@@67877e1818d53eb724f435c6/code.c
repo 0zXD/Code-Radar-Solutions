@@ -11,7 +11,7 @@ int main(){
         for(int j = 0; j<row -i; j++){
             printf(" ");
         }
-        for(int b =0; b<row; b++){
+        for(int b =0; b<row-i; b++){
             printf("%d ", num++);
         }
         printf("\n");
