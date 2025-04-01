@@ -3,10 +3,10 @@
 # include <stdio.h>
 
 int main(){
-    int row;
+    int row, num;
     scanf("%d", &row);
 
-    num = row
+    num = row;
 
     for(int i = 0; i<row; i++){
         int fix = 1;
