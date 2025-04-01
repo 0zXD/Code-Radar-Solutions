@@ -20,11 +20,11 @@ int main(){
         printf("\n");
     }
     
-    for (int j =0; j< rows-1; j++){
+    for (int j =1; j<= rows-1; j++){
         for (int x = 0; x < j+1; x++){
             printf(" ");
         }
-        for (int x = (2*i) -1; x >0 ; x--){
+        for (int x = (2*j) -1; x >0 ; x--){
             printf("*");
         }
         printf("\n");
