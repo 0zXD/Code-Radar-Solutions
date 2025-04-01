@@ -21,7 +21,7 @@ int main(){
     }
     
     for (int j =rows-1; j>0; j--){
-        for (int x = 0; x <= rows-j; x++){
+        for (int x = 1; x <= rows-j; x++){
             printf(" ");
         }
         for (int y = (2*j) -1; y >0 ; y--){
