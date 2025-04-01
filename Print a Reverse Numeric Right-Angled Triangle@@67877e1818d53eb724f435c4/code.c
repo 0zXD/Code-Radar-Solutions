@@ -11,5 +11,6 @@ int main(){
         for (int j = 0; j<row; j++){
             printf("%d ", fix++);
         }
+        printf("\n");
     }
 }
