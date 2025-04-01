@@ -14,7 +14,7 @@ int main(){
             printf(" ");
         }
         space --;
-        for (int a = 0; a <= 2i-1; a++){
+        for (int a = 0; a <= 2(i)-1; a++){
             printf("*");
         }
         printf("\n");
