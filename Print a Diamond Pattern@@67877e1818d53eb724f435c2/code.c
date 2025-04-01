@@ -9,12 +9,12 @@ int main(){
     space = rows-1; 
     stars = rows-1;
 
-    for (int i =0; i< rows; i++){
+    for (int b =0; b< rows; b++){
         for (int j = 0; j < space; j++){
             printf(" ");
         }
         space --;
-        for (int a = 0; a <= (2i-1); a++){
+        for (int a = 0; a <= (2b-1); a++){
             printf("*");
         }
         printf("\n");
