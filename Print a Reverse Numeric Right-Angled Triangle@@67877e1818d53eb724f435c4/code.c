@@ -3,16 +3,13 @@
 # include <stdio.h>
 
 int main(){
-    int row, num;
+    int row;
     scanf("%d", &row);
-
-    num = row;
 
     for(int i = 0; i<row; i++){
         int fix = 1;
-        for (int j = 0; j<row; j++){
+        for (int j = 0; j<row-i; j++){
             printf("%d ", fix++);
-            num --;
         }
         printf("\n");
     }
