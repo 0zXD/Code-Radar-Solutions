@@ -14,7 +14,7 @@ int main(){
             printf(" ");
         }
         space --;
-        for (int a = 1; a <= 2*i-1; a++){
+        for (int a = 1; a <= (2*i)-1; a++){
             printf("*");
         }
         printf("\n");
@@ -24,13 +24,9 @@ int main(){
         for (int x = 0; x < j+1; x++){
             printf(" ");
         }
-        for (int x = 0; x < stars ; x++){
+        for (int x = (2*i) -1; x >0 ; x--){
             printf("*");
         }
-        for (int x = 0; x < stars-1 ; x++){
-            printf("*");
-        }
-        stars--;
         printf("\n");
     }
 
