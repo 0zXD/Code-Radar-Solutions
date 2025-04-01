@@ -7,7 +7,7 @@ int main(){
     scanf("%d", &row);
 
     for (int i =0; i<row; i++){
-        char let = "A";
+        char let = 'A';
         for(int j = 0; j<=i; j++){
             printf("%c", let++);
         }
