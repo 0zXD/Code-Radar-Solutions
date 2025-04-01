@@ -24,11 +24,10 @@ int main(){
         for (int x = 0; x < j+1; x++){
             printf(" ");
         }
-        for (int x = (2*j) -1; x >0 ; x--){
+        for (int y = (2*j) -1; y >0 ; y--){
             printf("*");
         }
         printf("\n");
     }
-
 
 }
