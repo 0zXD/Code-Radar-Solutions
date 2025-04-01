@@ -20,7 +20,7 @@ int main(){
         printf("\n");
     }
     
-    for (int j =1; j<= rows-1; j++){
+    for (int j =rows-1; j>0; j--){
         for (int x = 0; x < j+1; x++){
             printf(" ");
         }
@@ -30,4 +30,6 @@ int main(){
         printf("\n");
     }
 
+
+      
 }
