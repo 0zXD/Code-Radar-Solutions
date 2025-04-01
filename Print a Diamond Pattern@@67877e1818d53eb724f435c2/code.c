@@ -10,10 +10,9 @@ int main(){
     stars = rows-1;
 
     for (int i =1; i<= rows; i++){
-        for (int j = 0; j < space; j++){
+        for (int j = 1; j < rows-i; j++){
             printf(" ");
         }
-        space --;
         for (int a = 1; a <= (2*i)-1; a++){
             printf("*");
         }
